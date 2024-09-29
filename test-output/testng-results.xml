@@ -1,29 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-29T16:58:53 IST" name="Default suite" finished-at="2024-09-29T16:59:18 IST" duration-ms="24452">
+  <suite started-at="2024-09-29T18:21:28 IST" name="Default suite" finished-at="2024-09-29T18:21:59 IST" duration-ms="30655">
     <groups>
     </groups>
-    <test started-at="2024-09-29T16:58:53 IST" name="Default test" finished-at="2024-09-29T16:59:18 IST" duration-ms="24452">
+    <test started-at="2024-09-29T18:21:28 IST" name="Default test" finished-at="2024-09-29T18:21:59 IST" duration-ms="30655">
       <class name="com.qa.Opencart.test.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.Opencart.test.HomePageTest@1817d444]" started-at="2024-09-29T16:58:53 IST" name="setup" finished-at="2024-09-29T16:59:10 IST" duration-ms="17179" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.Opencart.test.HomePageTest@72f926e6]" started-at="2024-09-29T18:21:28 IST" name="setup" finished-at="2024-09-29T18:21:54 IST" duration-ms="25916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.Opencart.test.HomePageTest@1817d444]" started-at="2024-09-29T16:59:10 IST" name="homePageTitleTest" finished-at="2024-09-29T16:59:10 IST" duration-ms="65" status="PASS">
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.Opencart.test.HomePageTest@72f926e6]" started-at="2024-09-29T18:21:54 IST" name="homePageTitleTest" finished-at="2024-09-29T18:21:55 IST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method signature="homePageUrlTest()[pri:0, instance:com.qa.Opencart.test.HomePageTest@1817d444]" started-at="2024-09-29T16:59:10 IST" name="homePageUrlTest" finished-at="2024-09-29T16:59:10 IST" duration-ms="8" status="PASS">
+        <test-method signature="homePageUrlTest()[pri:0, instance:com.qa.Opencart.test.HomePageTest@72f926e6]" started-at="2024-09-29T18:21:55 IST" name="homePageUrlTest" finished-at="2024-09-29T18:21:55 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageUrlTest -->
-        <test-method signature="searchProduct()[pri:0, instance:com.qa.Opencart.test.HomePageTest@1817d444]" started-at="2024-09-29T16:59:10 IST" name="searchProduct" finished-at="2024-09-29T16:59:11 IST" duration-ms="938" status="PASS">
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.qa.Opencart.test.HomePageTest@72f926e6]" started-at="2024-09-29T18:21:55 IST" name="searchProduct" data-provider="getProductData" finished-at="2024-09-29T18:21:55 IST" duration-ms="823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Opencart.test.HomePageTest@1817d444]" started-at="2024-09-29T16:59:11 IST" name="tearDown" finished-at="2024-09-29T16:59:18 IST" duration-ms="6114" status="PASS">
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.qa.Opencart.test.HomePageTest@72f926e6]" started-at="2024-09-29T18:21:55 IST" name="searchProduct" data-provider="getProductData" finished-at="2024-09-29T18:21:56 IST" duration-ms="836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.qa.Opencart.test.HomePageTest@72f926e6]" started-at="2024-09-29T18:21:56 IST" name="searchProduct" data-provider="getProductData" finished-at="2024-09-29T18:21:57 IST" duration-ms="535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Opencart.test.HomePageTest@72f926e6]" started-at="2024-09-29T18:21:57 IST" name="tearDown" finished-at="2024-09-29T18:21:59 IST" duration-ms="2343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

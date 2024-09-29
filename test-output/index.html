@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Shree\AppData\Local\Temp\testng-eclipse-1225523687\testng-customsuite.xml</span>
+                    <span>C:\Users\Shree\AppData\Local\Temp\testng-eclipse-1915237782\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -114,7 +114,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.qa.Opencart.test.HomePageTest" class="method navigator-link" hash-for-method="searchProduct">searchProduct</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.Opencart.test.HomePageTest" class="method navigator-link" hash-for-method="searchProduct(samsung)">searchProduct(samsung)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.Opencart.test.HomePageTest" class="method navigator-link" hash-for-method="searchProduct(macbook)">searchProduct(macbook)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.Opencart.test.HomePageTest" class="method navigator-link" hash-for-method="searchProduct(iMac)">searchProduct(iMac)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -151,9 +161,26 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="searchProduct">
-                  </a> <!-- searchProduct -->
+                  <a name="searchProduct(samsung)">
+                  </a> <!-- searchProduct(samsung) -->
                   <span class="method-name">searchProduct</span>
+                  <span class="parameters">(samsung)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct(macbook)">
+                  </a> <!-- searchProduct(macbook) -->
+                  <span class="method-name">searchProduct</span>
+                  <span class="parameters">(macbook)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct(iMac)">
+                  </a> <!-- searchProduct(iMac) -->
+                  <span class="method-name">searchProduct</span>
+                  <span class="parameters">(iMac)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -161,7 +188,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Shree\AppData\Local\Temp\testng-eclipse-1225523687\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Shree\AppData\Local\Temp\testng-eclipse-1915237782\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -210,24 +237,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'searchProduct')
 data.setCell(0, 2, 'com.qa.Opencart.test.HomePageTest')
-data.setCell(0, 3, 938);
+data.setCell(0, 3, 836);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'homePageTitleTest')
+data.setCell(1, 1, 'searchProduct')
 data.setCell(1, 2, 'com.qa.Opencart.test.HomePageTest')
-data.setCell(1, 3, 65);
+data.setCell(1, 3, 823);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'homePageUrlTest')
+data.setCell(2, 1, 'searchProduct')
 data.setCell(2, 2, 'com.qa.Opencart.test.HomePageTest')
-data.setCell(2, 3, 8);
+data.setCell(2, 3, 535);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'homePageTitleTest')
+data.setCell(3, 2, 'com.qa.Opencart.test.HomePageTest')
+data.setCell(3, 3, 70);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'homePageUrlTest')
+data.setCell(4, 2, 'com.qa.Opencart.test.HomePageTest')
+data.setCell(4, 3, 3);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -260,19 +295,27 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">homePageTitleTest</span>
-                <span class="method-start">17278 ms</span>
+                <span class="method-start">25982 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">homePageUrlTest</span>
-                <span class="method-start">17365 ms</span>
+                <span class="method-start">26061 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">searchProduct</span>
-                <span class="method-start">17384 ms</span>
+                <span class="method-name">searchProduct(macbook)</span>
+                <span class="method-start">26083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchProduct(iMac)</span>
+                <span class="method-start">26912 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchProduct(samsung)</span>
+                <span class="method-start">27754 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18328 ms</span>
+                <span class="method-start">28304 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

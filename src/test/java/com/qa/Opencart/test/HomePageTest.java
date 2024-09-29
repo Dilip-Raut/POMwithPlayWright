@@ -3,6 +3,7 @@ package com.qa.Opencart.test;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.microsoft.playwright.Page;
@@ -34,10 +35,21 @@ public class HomePageTest {
 		Assert.assertEquals(actualUrl, "https://naveenautomationlabs.com/opencart/");
 	}
 	
-	@Test
-	public void searchProduct() {
-		String actualHeader = homePage.doSearchProduct("macbook");
-		Assert.assertEquals(actualHeader, "Search - macbook");
+	@DataProvider
+	public Object[][] getProductData() {
+		return new Object[][] {
+			{"macbook"},
+			{"iMac"},
+			{"samsung"}
+		};
+	}
+	
+	
+	
+	@Test(dataProvider = "getProductData")
+	public void searchProduct(String productName) {
+		String actualHeader = homePage.doSearchProduct(productName);
+		Assert.assertEquals(actualHeader, "Search - "+productName);
 	}
 	@AfterTest
 	public void tearDown() {
